@@ -1,34 +1,84 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import { useEffect } from 'react'
+import Accordion from './components/Accordion'
+import Collapse from './components/Collapse'
+import Dropdown from './components/Dropdown'
+import MegaMenu from './components/MegaMenu'
+import Modal from './components/Modal'
+import Offcanvas from './components/Offcanvas'
+import Popover from './components/Popover'
+import RemoveElement from './components/RemoveElement'
+import ScrollSpy from './components/ScrollSpy'
+import Sidebar from './components/Sidebar'
+import Tabs from './components/Tabs'
+import Tooltip from './components/Tooltip'
 
 function App() {
-  const [count, setCount] = useState(0)
+  useEffect(() => {
+    import('preline')
+  }, [])
 
   return (
-    <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
+    <div>
+      <div className='mb-8'>
+        <h2 className='mb-4'>Accordion</h2>
+        <Accordion />
       </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
-        </p>
+
+      <div className='mb-8'>
+        <h2 className='mb-4'>Collapse</h2>
+        <Collapse />
       </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
+
+      <div className='mb-8'>
+        <h2 className='mb-4'>Tabs</h2>
+        <Tabs />
+      </div>
+
+      <div className='mb-8'>
+        <h2 className='mb-4'>Scrollspy</h2>
+        <ScrollSpy />
+      </div>
+
+      <div className='mb-8'>
+        <h2 className='mb-4'>MegaMenu</h2>
+        <MegaMenu />
+      </div>
+
+      <div className='mb-8'>
+        <h2 className='mb-4'>Dropdown</h2>
+        <Dropdown />
+      </div>
+
+      <div className='mb-8'>
+        <h2 className='mb-4'>Modal</h2>
+        <Modal />
+      </div>
+
+      <div className='mb-8'>
+        <h2 className='mb-4'>Offcanvas</h2>
+        <Offcanvas />
+      </div>
+
+      <div className='mb-8'>
+        <h2 className='mb-4'>Sidebar</h2>
+        <Sidebar />
+      </div>
+
+      <div className='mb-8'>
+        <h2 className='mb-4'>Popover</h2>
+        <Popover />
+      </div>
+
+      <div className='mb-8'>
+        <h2 className='mb-4'>Tooltip</h2>
+        <Tooltip />
+      </div>
+
+      <div className='mb-8'>
+        <h2 className='mb-4'>RemoveElement</h2>
+        <RemoveElement />
+      </div>
+    </div>
   )
 }
 
