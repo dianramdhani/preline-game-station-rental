@@ -1,27 +1,19 @@
-# React + TypeScript + Vite
+# preline-game-station-rental
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Bosen jadi pingin produktif dengan implemen desain. Mohon izin untuk yang punya desain 🙏 🙏
 
-Currently, two official plugins are available:
+## Screenshot
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+![Figma](screenshot/figma.png)
 
-## Expanding the ESLint configuration
+## Link
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+[Edit on StackBlitz ⚡️](https://stackblitz.com/edit/react-uepmf1)
 
-- Configure the top-level `parserOptions` property like this:
+## Desain di Figma
 
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
-```
+[Tautan Figma](https://www.figma.com/file/qpgN2llrWIVcCE2aJO49I4/Game-Station-Rental-App?type=design&node-id=15-614&mode=design&t=2UXzOECXBa6e91BQ-0)
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+## Lisensi
+
+Proyek ini hasil pribadi. Mohon sertakan link sumber dan nama saya jika hendak menggunakan 😎
