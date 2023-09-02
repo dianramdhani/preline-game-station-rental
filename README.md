@@ -8,7 +8,7 @@ Bosen jadi pingin produktif dengan implemen desain Station Detail. Mohon izin un
 
 ## Link
 
-[Edit on StackBlitz ⚡️](https://stackblitz.com/edit/react-uepmf1)
+[Edit on StackBlitz ⚡️](https://stackblitz.com/edit/github-6xik4h)
 
 ## Desain di Figma
 
