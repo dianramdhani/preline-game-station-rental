@@ -1,6 +1,6 @@
 # preline-game-station-rental
 
-Bosen jadi pingin produktif dengan implemen desain. Mohon izin untuk yang punya desain 🙏 🙏
+Bosen jadi pingin produktif dengan implemen desain Station Detail. Mohon izin untuk yang punya desain 🙏 🙏
 
 ## Screenshot
 
